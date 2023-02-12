@@ -11,17 +11,13 @@ struct CapitalizeString: View {
   @State var text = String()
   @State var myArray: [String] = Array()
     var body: some View {
-      Text("Seperate, and capitalise each word of the string.")
+      Text("Capitalise each word of the string.")
       TextField("Add String", text: $text)
       Button("Submit") {
         myArray = text.components(separatedBy: " ")
-        print(myArray)
-        
-        myArray.forEach { word in
-          myArray[0] = "This"
+          myArray.enumerated().forEach { word in
+              myArray[word.offset] = word.element.capitalized
         }
-        print(myArray)
-        
       }
     }
 }
