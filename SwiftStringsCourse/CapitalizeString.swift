@@ -2,24 +2,27 @@
 //  CapitalizeString.swift
 //  SwiftStringsCourse
 //
-//  Created by Tony Chaidinis on 12/02/2023.
-//
 
 import SwiftUI
 
 struct CapitalizeString: View {
   @State var text = String()
   @State var myArray: [String] = Array()
-    var body: some View {
+  @State var show = "Give us a String"
+  var body: some View {
+    VStack {
       Text("Capitalise each word of the string.")
+      Text("--> \(show) <--")
       TextField("Add String", text: $text)
       Button("Submit") {
         myArray = text.components(separatedBy: " ")
-          myArray.enumerated().forEach { word in
-              myArray[word.offset] = word.element.capitalized
+        myArray.enumerated().forEach { word in
+          myArray[word.offset] = word.element.capitalized
         }
+        show = myArray.joined(separator: " ")
       }
     }
+  }
 }
 
 struct CapitalizeString_Previews: PreviewProvider {
