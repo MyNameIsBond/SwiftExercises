@@ -9,7 +9,8 @@ struct ContentView: View {
             Text("Count Characters").bold()
 //            CountCharacters()
 //            ConcatenatedString()
-            ReverseString()
+//            ReverseString()
+          CapitalizeString()
         }
 
         

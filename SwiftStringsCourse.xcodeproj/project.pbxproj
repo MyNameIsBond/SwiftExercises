@@ -17,6 +17,7 @@
 		972F10272999379A00DC70C7 /* CountCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972F10262999379A00DC70C7 /* CountCharacters.swift */; };
 		972F1029299939C100DC70C7 /* ConcatenatedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972F1028299939C100DC70C7 /* ConcatenatedString.swift */; };
 		972F102B29993C2F00DC70C7 /* ReverseString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972F102A29993C2F00DC70C7 /* ReverseString.swift */; };
+		972F102D2999616900DC70C7 /* CapitalizeString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972F102C2999616900DC70C7 /* CapitalizeString.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		972F10262999379A00DC70C7 /* CountCharacters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountCharacters.swift; sourceTree = "<group>"; };
 		972F1028299939C100DC70C7 /* ConcatenatedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcatenatedString.swift; sourceTree = "<group>"; };
 		972F102A29993C2F00DC70C7 /* ReverseString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseString.swift; sourceTree = "<group>"; };
+		972F102C2999616900DC70C7 /* CapitalizeString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapitalizeString.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				972F10262999379A00DC70C7 /* CountCharacters.swift */,
 				972F1028299939C100DC70C7 /* ConcatenatedString.swift */,
 				972F102A29993C2F00DC70C7 /* ReverseString.swift */,
+				972F102C2999616900DC70C7 /* CapitalizeString.swift */,
 			);
 			path = SwiftStringsCourse;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				972F102D2999616900DC70C7 /* CapitalizeString.swift in Sources */,
 				972F102B29993C2F00DC70C7 /* ReverseString.swift in Sources */,
 				972F0FFC299926CE00DC70C7 /* ContentView.swift in Sources */,
 				972F0FFA299926CE00DC70C7 /* SwiftStringsCourseApp.swift in Sources */,
