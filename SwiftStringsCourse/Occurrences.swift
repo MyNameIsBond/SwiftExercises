@@ -5,22 +5,29 @@
 
 import SwiftUI
 
+struct CharacterDublicates {
+  var letter: Character
+  var counts: Int
+}
+
 struct Occurrences: View {
+  @State var storeDublicated: [CharacterDublicates]  = Array()
   @State var text = String()
-  @State var occurrences = []
-  @State var myArray = Array(offset: Int, element: String)
     var body: some View {
       
       Text("Give a string to know the occurrences of earch character")
       TextField("Give me a string", text: $text)
       Button("Submit") {
-        let myArray = Array(text).sorted().enumerated()
-        myArray.forEach { character in
-          print(character)
-          while(character.element == myArray[character.offset + 1].element) {
-            print(" ela re paidia ")
+        
+        for index in text.enumerated() {
+          if let ind = (storeDublicated.firstIndex { $0.letter == index.element }) {
+            storeDublicated[ind].counts = storeDublicated[ind].counts + 1
+          } else {
+            storeDublicated.append(CharacterDublicates(letter: index.element, counts: 1))
           }
         }
+        print(storeDublicated)
+        storeDublicated.removeAll()
       }
     }
 }
