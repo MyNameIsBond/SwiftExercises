@@ -10,7 +10,8 @@ struct ContentView: View {
 //            CountCharacters()
 //            ConcatenatedString()
 //            ReverseString()
-          CapitalizeString()
+//            CapitalizeString()
+            Occurrences()
         }
 
         

@@ -18,6 +18,7 @@
 		972F1029299939C100DC70C7 /* ConcatenatedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972F1028299939C100DC70C7 /* ConcatenatedString.swift */; };
 		972F102B29993C2F00DC70C7 /* ReverseString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972F102A29993C2F00DC70C7 /* ReverseString.swift */; };
 		972F102D2999616900DC70C7 /* CapitalizeString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972F102C2999616900DC70C7 /* CapitalizeString.swift */; };
+		97837AD02999757C00442545 /* Occurrences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97837ACF2999757C00442545 /* Occurrences.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		972F1028299939C100DC70C7 /* ConcatenatedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcatenatedString.swift; sourceTree = "<group>"; };
 		972F102A29993C2F00DC70C7 /* ReverseString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseString.swift; sourceTree = "<group>"; };
 		972F102C2999616900DC70C7 /* CapitalizeString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapitalizeString.swift; sourceTree = "<group>"; };
+		97837ACF2999757C00442545 /* Occurrences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Occurrences.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				972F1028299939C100DC70C7 /* ConcatenatedString.swift */,
 				972F102A29993C2F00DC70C7 /* ReverseString.swift */,
 				972F102C2999616900DC70C7 /* CapitalizeString.swift */,
+				97837ACF2999757C00442545 /* Occurrences.swift */,
 			);
 			path = SwiftStringsCourse;
 			sourceTree = "<group>";
@@ -275,6 +278,7 @@
 				972F102B29993C2F00DC70C7 /* ReverseString.swift in Sources */,
 				972F0FFC299926CE00DC70C7 /* ContentView.swift in Sources */,
 				972F0FFA299926CE00DC70C7 /* SwiftStringsCourseApp.swift in Sources */,
+				97837AD02999757C00442545 /* Occurrences.swift in Sources */,
 				972F10272999379A00DC70C7 /* CountCharacters.swift in Sources */,
 				972F1029299939C100DC70C7 /* ConcatenatedString.swift in Sources */,
 			);
