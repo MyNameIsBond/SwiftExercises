@@ -6,12 +6,12 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack{
-            Text("Count Characters").bold()
 //            CountCharacters()
 //            ConcatenatedString()
 //            ReverseString()
 //            CapitalizeString()
-            Occurrences()
+//            Occurrences()
+          RemoveVowels()
         }
 
         
