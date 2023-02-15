@@ -11,7 +11,9 @@ struct ContentView: View {
 //            ReverseString()
 //            CapitalizeString()
 //            Occurrences()
-          RemoveVowels()
+//            RemoveVowels()
+          RemoveSpaces()
+          
         }
 
         

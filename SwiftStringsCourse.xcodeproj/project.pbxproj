@@ -20,6 +20,7 @@
 		972F102D2999616900DC70C7 /* CapitalizeString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972F102C2999616900DC70C7 /* CapitalizeString.swift */; };
 		97837AD02999757C00442545 /* Occurrences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97837ACF2999757C00442545 /* Occurrences.swift */; };
 		97837AD2299B8A9000442545 /* RemoveVowels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97837AD1299B8A9000442545 /* RemoveVowels.swift */; };
+		97BEF11B299D0FDD00BBADE9 /* RemoveSpaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BEF11A299D0FDD00BBADE9 /* RemoveSpaces.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		972F102C2999616900DC70C7 /* CapitalizeString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapitalizeString.swift; sourceTree = "<group>"; };
 		97837ACF2999757C00442545 /* Occurrences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Occurrences.swift; sourceTree = "<group>"; };
 		97837AD1299B8A9000442545 /* RemoveVowels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveVowels.swift; sourceTree = "<group>"; };
+		97BEF11A299D0FDD00BBADE9 /* RemoveSpaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveSpaces.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 				972F102C2999616900DC70C7 /* CapitalizeString.swift */,
 				97837ACF2999757C00442545 /* Occurrences.swift */,
 				97837AD1299B8A9000442545 /* RemoveVowels.swift */,
+				97BEF11A299D0FDD00BBADE9 /* RemoveSpaces.swift */,
 			);
 			path = SwiftStringsCourse;
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97BEF11B299D0FDD00BBADE9 /* RemoveSpaces.swift in Sources */,
 				972F102D2999616900DC70C7 /* CapitalizeString.swift in Sources */,
 				972F102B29993C2F00DC70C7 /* ReverseString.swift in Sources */,
 				972F0FFC299926CE00DC70C7 /* ContentView.swift in Sources */,
