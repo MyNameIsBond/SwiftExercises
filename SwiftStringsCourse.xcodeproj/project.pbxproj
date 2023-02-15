@@ -22,6 +22,8 @@
 		97837AD2299B8A9000442545 /* RemoveVowels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97837AD1299B8A9000442545 /* RemoveVowels.swift */; };
 		97BEF11B299D0FDD00BBADE9 /* RemoveSpaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BEF11A299D0FDD00BBADE9 /* RemoveSpaces.swift */; };
 		97BEF11D299D12C500BBADE9 /* LongestWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BEF11C299D12C500BBADE9 /* LongestWord.swift */; };
+		97BEF11F299D312600BBADE9 /* RemoveNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BEF11E299D312600BBADE9 /* RemoveNumbers.swift */; };
+		97BEF121299D34BB00BBADE9 /* CapitalizeWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BEF120299D34BB00BBADE9 /* CapitalizeWords.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,8 @@
 		97837AD1299B8A9000442545 /* RemoveVowels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveVowels.swift; sourceTree = "<group>"; };
 		97BEF11A299D0FDD00BBADE9 /* RemoveSpaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveSpaces.swift; sourceTree = "<group>"; };
 		97BEF11C299D12C500BBADE9 /* LongestWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestWord.swift; sourceTree = "<group>"; };
+		97BEF11E299D312600BBADE9 /* RemoveNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveNumbers.swift; sourceTree = "<group>"; };
+		97BEF120299D34BB00BBADE9 /* CapitalizeWords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapitalizeWords.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +128,8 @@
 				97837AD1299B8A9000442545 /* RemoveVowels.swift */,
 				97BEF11A299D0FDD00BBADE9 /* RemoveSpaces.swift */,
 				97BEF11C299D12C500BBADE9 /* LongestWord.swift */,
+				97BEF11E299D312600BBADE9 /* RemoveNumbers.swift */,
+				97BEF120299D34BB00BBADE9 /* CapitalizeWords.swift */,
 			);
 			path = SwiftStringsCourse;
 			sourceTree = "<group>";
@@ -288,9 +294,11 @@
 				972F102B29993C2F00DC70C7 /* ReverseString.swift in Sources */,
 				972F0FFC299926CE00DC70C7 /* ContentView.swift in Sources */,
 				97837AD2299B8A9000442545 /* RemoveVowels.swift in Sources */,
+				97BEF11F299D312600BBADE9 /* RemoveNumbers.swift in Sources */,
 				972F0FFA299926CE00DC70C7 /* SwiftStringsCourseApp.swift in Sources */,
 				97BEF11D299D12C500BBADE9 /* LongestWord.swift in Sources */,
 				97837AD02999757C00442545 /* Occurrences.swift in Sources */,
+				97BEF121299D34BB00BBADE9 /* CapitalizeWords.swift in Sources */,
 				972F10272999379A00DC70C7 /* CountCharacters.swift in Sources */,
 				972F1029299939C100DC70C7 /* ConcatenatedString.swift in Sources */,
 			);

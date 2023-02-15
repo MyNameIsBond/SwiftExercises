@@ -17,13 +17,11 @@ struct CountCharacters: View {
             VStack {
                 TextField("Search...", text: $text)
                 Button("Submit", action: {
-                    number = Array(text.trimmingCharacters(in: .whitespacesAndNewlines)).count
+                  number = Array(text.trimmingCharacters(in: .whitespacesAndNewlines)).count
                     print()
-                    })
+                    }) 
             }
-        }
-        
-        .padding()
+        }.padding()
     }
 }
 
