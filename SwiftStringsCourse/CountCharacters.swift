@@ -2,8 +2,6 @@
 //  CountCharacters.swift
 //  SwiftStringsCourse
 //
-//  Created by Tony Chaidinis on 12/02/2023.
-//
 
 import SwiftUI
 

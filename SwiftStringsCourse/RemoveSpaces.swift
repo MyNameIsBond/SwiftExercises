@@ -2,8 +2,6 @@
 //  RemoveSpaces.swift
 //  SwiftStringsCourse
 //
-//  Created by Tony Chaidinis on 15/02/2023.
-//
 
 import SwiftUI
 
