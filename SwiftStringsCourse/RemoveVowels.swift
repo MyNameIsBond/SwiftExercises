@@ -7,33 +7,17 @@
 
 import SwiftUI
 
-enum Vowels {
-  case a, o, u, i, e
-  
-  func isAVowel() -> Bool {
-       switch self {
-       case .a, .o, .u, .i, .e:
-           return  true
-       default:
-           return false
-       }
-    }
-}
-
 struct RemoveVowels: View {
   @State var text = String()
-    var body: some View {
+  let vowels: Set<Character> = ["a", "e", "i", "o", "u"]
+  var body: some View {
         Text("Give a string for the vowels to be removed")
       TextField("Give a string", text: $text)
-      Button("submit") {
-        for char in text {
-          print("Vowels: \(char)")
-          if Vowels.e.isAVowel() != nil {
-            print("Vowels: \(Vowels.e)")
-          }
-        }
+      Button("remove vowels") {
+        text.removeAll(where: { vowels.contains($0)})
+        print(text)
       }
-    }
+  }
 }
 
 struct RemoveVowels_Previews: PreviewProvider {
