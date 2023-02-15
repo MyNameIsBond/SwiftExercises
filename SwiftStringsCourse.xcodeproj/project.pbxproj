@@ -21,6 +21,7 @@
 		97837AD02999757C00442545 /* Occurrences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97837ACF2999757C00442545 /* Occurrences.swift */; };
 		97837AD2299B8A9000442545 /* RemoveVowels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97837AD1299B8A9000442545 /* RemoveVowels.swift */; };
 		97BEF11B299D0FDD00BBADE9 /* RemoveSpaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BEF11A299D0FDD00BBADE9 /* RemoveSpaces.swift */; };
+		97BEF11D299D12C500BBADE9 /* LongestWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BEF11C299D12C500BBADE9 /* LongestWord.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		97837ACF2999757C00442545 /* Occurrences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Occurrences.swift; sourceTree = "<group>"; };
 		97837AD1299B8A9000442545 /* RemoveVowels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveVowels.swift; sourceTree = "<group>"; };
 		97BEF11A299D0FDD00BBADE9 /* RemoveSpaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveSpaces.swift; sourceTree = "<group>"; };
+		97BEF11C299D12C500BBADE9 /* LongestWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestWord.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 				97837ACF2999757C00442545 /* Occurrences.swift */,
 				97837AD1299B8A9000442545 /* RemoveVowels.swift */,
 				97BEF11A299D0FDD00BBADE9 /* RemoveSpaces.swift */,
+				97BEF11C299D12C500BBADE9 /* LongestWord.swift */,
 			);
 			path = SwiftStringsCourse;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 				972F0FFC299926CE00DC70C7 /* ContentView.swift in Sources */,
 				97837AD2299B8A9000442545 /* RemoveVowels.swift in Sources */,
 				972F0FFA299926CE00DC70C7 /* SwiftStringsCourseApp.swift in Sources */,
+				97BEF11D299D12C500BBADE9 /* LongestWord.swift in Sources */,
 				97837AD02999757C00442545 /* Occurrences.swift in Sources */,
 				972F10272999379A00DC70C7 /* CountCharacters.swift in Sources */,
 				972F1029299939C100DC70C7 /* ConcatenatedString.swift in Sources */,

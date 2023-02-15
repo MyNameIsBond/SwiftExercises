@@ -12,7 +12,8 @@ struct ContentView: View {
 //            CapitalizeString()
 //            Occurrences()
 //            RemoveVowels()
-          RemoveSpaces()
+//          RemoveSpaces()
+          LongestWord()
           
         }
 
